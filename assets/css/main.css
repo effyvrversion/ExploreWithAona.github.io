@@ -2700,7 +2700,9 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background: #a39193;
+		background: #355C7D;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #C06C84, #6C5B7B, #355C7D);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #C06C84, #6C5B7B, #355C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 		color: #585757;
 		height: 100%;
 		overflow-y: auto;
@@ -2772,7 +2774,7 @@ input, select, textarea {
 			}
 
 				#header > footer .icons li a {
-					color: #a39193;
+					color: #ffffff;
 				}
 
 		#header > nav {
@@ -2789,7 +2791,7 @@ input, select, textarea {
 			}
 
 				#header > nav ul li {
-					border-top: solid 2px #a39193;
+					border-top: solid 0px #000000;
 					display: block;
 					padding: 0;
 				}
@@ -3312,30 +3314,7 @@ input, select, textarea {
 			.button {
 				padding: 0;
 			}
-			
-            .contact {
-				text-align: center;
-			  }
-			  
-			  .contact h3 {
-				font-size: 1.5em;
-			  }
-			  
-			  .contact li {
-				margin-bottom: 1em;
-			  }
-			  
-			  .contact h3:not(:first-child) {
-				font-size: 1.2em;
-			  }
-			  
-			  .contact li h3 {
-				font-size: 1em;
-			  }
-			  
-			  .contact li span,
-			  .contact li a {
-				font-size: 0.8em;
-			  }
+
+            
 			  
 	}
