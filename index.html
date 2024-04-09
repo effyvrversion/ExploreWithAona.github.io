@@ -1,148 +1,552 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-		<title></title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body class="is-preload">
+<!doctype html>
+<html class="no-js" lang="en">
 
-		<!-- Header -->
-			<section id="header">
-				<header>
-					<span class="image avatar"><img src="images/avatar.jpeg" alt="" /></span>
-					<h1 id="logo"><a href="#">Aona</a></h1>
-					<p></p>
-				</header>
-				<nav id="nav">
-					<ul>
-						<li><a href="#one" class="active">About Me</a></li>
-						<li><a href="#two">Things I Can Do</a></li>
-						<li><a href="#three">My Portforlios</a></li>
-						
-					</ul>
-				</nav>
-				<footer>
-					<ul class="icons">
-						<li><a href="https://www.linkedin.com/in/aona-wang-0b112524b/" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
-						<li><a href="https://github.com/effyvrversion/Portforlio" class="icon brands fa-github"><span class="label">Github</span></a></li>
-						<li><a href="mailto:eeeffywang@outlook.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-					</ul>
-				</footer>
-			</section>
+    <head>
+        <!-- meta data -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+        <!--font-family-->
+		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&amp;subset=devanagari,latin-ext" rel="stylesheet">
+        
+        <!-- title of site -->
+        <title>Aona</title>
 
-				<!-- Main -->
-					<div id="main">
+        <!-- For favicon png -->
+		<link rel="shortcut icon" type="image/icon" href="assets/logo/favicon.png"/>
+       
+        <!--font-awesome.min.css-->
+        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
 
-						<!-- One -->
-							<section id="one">
-								<div class="image main" data-position="center">
-									<img src="images/banner.jpg" alt="" />
-								</div>
+		<!--flat icon css-->
+		<link rel="stylesheet" href="assets/css/flaticon.css">
+
+		<!--animate.css-->
+        <link rel="stylesheet" href="assets/css/animate.css">
+
+        <!--owl.carousel.css-->
+        <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+		<link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+		
+        <!--bootstrap.min.css-->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+		
+		<!-- bootsnav -->
+		<link rel="stylesheet" href="assets/css/bootsnav.css" >	
+        
+        <!--style.css-->
+        <link rel="stylesheet" href="assets/css/style.css">
+        
+        <!--responsive.css-->
+        <link rel="stylesheet" href="assets/css/responsive.css">
+        
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		
+        <!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+    </head>
+	
+	<body>
+		<!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+		
+		<!-- top-area Start -->
+		<header class="top-area">
+			<div class="header-area">
+				<!-- Start Navigation -->
+			    <nav class="navbar navbar-default bootsnav navbar-fixed dark no-background">
+
+			        <div class="container">
+
+			            <!-- Start Header Navigation -->
+			            <div class="navbar-header">
+			                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+			                    <i class="fa fa-bars"></i>
+			                </button>
+			                <a class="navbar-brand" href="index.html">Aona</a>
+			            </div><!--/.navbar-header-->
+			            <!-- End Header Navigation -->
+
+			            <!-- Collect the nav links, forms, and other content for toggling -->
+			            <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
+			                <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
+			                <li class=" smooth-menu active"></li>
+			                    <li class="smooth-menu"><a href="#skills">skills</a></li>
+			                    <li class="smooth-menu"><a href="#profiles">Business cases</a></li>
+			                    <li class="smooth-menu"><a href="#portfolio">Data insights</a></li>
+			                    <li class="smooth-menu"><a href="#clients">Photography</a></li>
+			                </ul><!--/.nav -->
+			            </div><!-- /.navbar-collapse -->
+			        </div><!--/.container-->
+			    </nav><!--/nav-->
+			    <!-- End Navigation -->
+			</div><!--/.header-area-->
+
+		    <div class="clearfix"></div>
+
+		</header><!-- /.top-area-->
+		<!-- top-area End -->
+
+		<!--about start -->
+		<section id="about" class="about">
+			<div class="container">
+				<div class="about-content">
+					<div class="row">
+						<div class="col-sm-6">
+							<div class="single-about-txt">
+								<h3>
+									I am a <b><em> Business Analyst  </em></b>  with a passion for uncovering patterns within <b><em>to drive business enhancement</em></b>. My extensive experience in the business sector has sharpened my analytical skills and business acumen. Both curious and analytical, I actively incorporate digital techniques into my approach to address challenges from unique angles, providing insights to refine business strategies.
+								</h3>
 								<div class="container">
-									<header class="major">
-										<h2>Stay Curious for Patterns</h2>
-										<p>“The real voyage of discovery consists not in seeking <br />
-											new landscapes, but in having new eyes.”</p>
-									</header>
-									<p> I know how Numbers affect Profits<br />
-										also curious how Digitalization revitalizes Humanities</p>
-								</div>
-							</section>
-
-						<!-- Two -->
-							<section id="two">
-								<div class="container">
-									<h3>Things I Can Do</h3>
-									<p>I define myself as a detail-oriented person who is willing to learn new techniques. Years of experience in multi-fields enhanced my analytical skill and business acumen. Thus, I am able to handle problems from unique perspectives and bring meaningful insights.</p>
-									<ul class="feature-icons">
-										<li class="icon solid fa-code">Python, SQL, Javascipt</li>
-										<li class="icon solid fa-cubes">Visualization Dashboard</li>
-										<li class="icon solid fa-book">Webscraping and APIs</li>
-										<li class="icon solid fa-coffee">Coffee and Storytelling</li>
-										<li class="icon solid fa-bolt">Prototype and Laser Cutting</li>
-										<li class="icon solid fa-users">Photography</li>
-									</ul>
-								</div>
-							</section>
-
-						<!-- Three -->
-							<section id="three">
-								<div class="container">
-									<h3>My Portforlios</h3>
-									<p></p>
-									<div class="features">
-										<article>
-											<a href="https://public.tableau.com/app/profile/aona.wang/viz/Videogame_dashboard/GameOverview_Dashboard" class="image"><img src="images/pic01.png" alt="" /></a>
-											<div class="inner">
-												<h4><a href="https://github.com/effyvrversion/Portforlio/blob/main/videogame_analysis/Videogame_analysis.ipynb">Python: Video Games Analysis</a></h4>
-												<p>This project involves data cleaning and manipulating in Python. To get an overview of game industry in the past four decades, I applied Python libraries(Pandas, Seaborn, Matplotlib) and made an interactive dashboard in Tableau. </p>
+									<div class="education-horizontal-timeline">
+										<div class="row">
+											<div class="col-sm-4">
+												<div class="single-horizontal-timeline">
+													<div class="experience-time">
+														<h2>2010 - 2014</h2>
+														<h3>bachelor <span>of </span> financial Management</h3>
+													</div><!--/.experience-time-->
+													<div class="timeline-horizontal-border">
+														<i class="fa fa-circle" aria-hidden="true"></i>
+														<span class="single-timeline-horizontal"></span>
+													</div>
+													<div class="timeline">
+														<div class="timeline-content">
+															<h4 class="title">
+																Jianghan university
+															</h4>
+															<h5>Wuhan, China</h5>
+															<p class="description">
+																Economics, E-Commerce, Statistics, Advanced Mathematics, Linear Algebra, Finance, Marketing, Management, Cost Accounting
+															</p>
+														</div><!--/.timeline-content-->
+													</div><!--/.timeline-->
+												</div>
 											</div>
-										</article>
-										<article>
-											<a class="image"><img src="images/pic06.png" alt="" /></a>
-											<div class="inner">
-												<h4><a href="https://github.com/effyvrversion/Portforlio/blob/main/bankcustomer_analysis.ipynb">Bank Customer Analysis</a></h4>
-												<p>This project aims to retrieve general customer profiles and key elements affecting exited cases from customer data. The outcome can enhance customer analysis to facilitate solutions to minimize customer exit rates. </p>
+					
+									
+											<div class="col-sm-4">
+												<div class="single-horizontal-timeline">
+													<div class="experience-time">
+														<h2>2022 - 2023</h2>
+														<h3>master <span>of </span> Digital Humanities</h3>
+													</div><!--/.experience-time-->
+													<div class="timeline-horizontal-border">
+														<i class="fa fa-circle" aria-hidden="true"></i>
+														<span class="single-timeline-horizontal spacial-horizontal-line
+														"></span>
+													</div>
+													<div class="timeline">
+														<div class="timeline-content">
+															<h4 class="title">
+																KU Leuven
+															</h4>
+															<h5>Leuven, Belgium</h5>
+															<p class="description">
+																Information Structures, Management & Information Technology, Scripting Languages, Design Thinking & Making, Data Visualization, Web Information Systems
+															</p>
+														</div><!--/.timeline-content-->
+													</div><!--/.timeline-->
+												</div>
 											</div>
-										</article>
-										<article>
-											<a href="https://public.tableau.com/app/profile/aona.wang/viz/Overview-Rijksmuseum/MuseumOverview?publish=yes" class="image"><img src="images/pic02.png" alt="" /></a>
-											<div class="inner">
-												<h4><a href="https://github.com/effyvrversion/Portforlio/tree/main/Artwork_analysis">Data Extraction and Visualization: Artwork metadata</a></h4>
-												<p>The project expects to find connection between digital artwork metadata and color patterns that may shed light on broader artistic or cultural movements. The extraction of source data combines web scraping and API access. Here I made an overview of Rijksmuseum metadata and detailed analysis of two representative artists-Vincent van Gogh and Rembrandt van Rijn. </p>
-											</div>
-										</article>
-										<article>
-											<a class="image"><img src="images/pic04.png" alt="" /></a>
-											<div class="inner">
-												<h4><a href="https://github.com/effyvrversion/Portforlio/blob/f4bdc3b166540f9fb22da566d6f04d4c3b639322/Mondial_SQL_analysis/Mondial_SQL_Analysis.ipynb">SQL: Mondial Data</a></h4>
-												<p>Mondial is a set of tables that cover information of country, border, economy, population and nature resourcess. I select this database to explore the state of nature resource sustainability and its relation with economy. </p>
-											</div>
-										</article>
-										<article>
-											<a href="https://github.com/effyvrversion/Portforlio/blob/main/Artwork_analysis/Image%20Cluster%26Semantic%20Search_Vincent%20van%20Gogh.ipynb" class="image"><img src="images/pic03.png" alt="" /></a>
-											<div class="inner">
-												<h4><a href="https://github.com/effyvrversion/Portforlio/blob/main/Artwork_analysis/Image%20Cluster%26Semantic%20Search_Vincent%20van%20Gogh.ipynb">Machine Learning:Image Clustering & Semantic Search</a></h4>
-												<p>This is a test dataset with 500 images by Van Gogh. I insert the CLIP embedding to cluster the images and achieve search funtion based on image features(color and object). </p>
-											</div>
-										</article>
-										<article>
-											<a class="image"><img src="images/pic05.jpg" alt="" /></a>
-											<div class="inner">
-												<h4><a href="https://github.com/effyvrversion/IBM-DS-Assignment/blob/2fb1d664b86e1dc6c9905ba9fa6d6c2d8b17e07c/Applied%20DS/IBM-DS0321EN-SkillsNetwork_labs_module_4_SpaceX_Machine_Learning_Prediction_Part_5.jupyterlite.ipynb">Space X Falcon 9 First Stage Landing Prediction</a></h4>
-												<p>This task creates a machine learning pipeline to predict if the first stage of SpaceX  Falcon 9 will land given the data. The process applies three machine learning methods: SVM, Classification Trees and Logistic Regression. </p>
-											</div>
-										</article>
+										</div>
 									</div>
 								</div>
-							</section>
-
-					</div>
-
-				<!-- Footer -->
-					<section id="footer">
-						<div class="container">
-							<ul class="copyright">
-								<li>&copy;Aona Wang. All rights reserved.</li>
-							</ul>
+							</div>
 						</div>
-					</section>
+						<div class="col-sm-offset-1 col-sm-5">
+							<div class="single-about-img">
+								<img src="assets/images/about/profile_image.png" alt="profile_image">
+							
 
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</section><!--/.about-->
+		<!--about end -->
+
+		<!--skills start -->
+		<section id="skills" class="skills">
+				<div class="skill-content">
+					<div class="section-heading text-center">
+						<h2>skills</h2>
+					</div>
+					<div class="container">
+						<div class="row">
+							<div class="col-md-6">
+								<div class="single-skill-content">
+									<div class="barWrapper">
+										<span class="progressText">Code: Python/SQL/HTML</span>
+										<div class="single-progress-txt">
+											<div class="progress ">
+												<div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="10" aria-valuemax="100" style="">
+													  
+												</div>
+											</div>
+											<h3>85%</h3>	
+										</div>
+									</div><!-- /.barWrapper -->
+									<div class="barWrapper">
+										<span class="progressText">Market Research</span>
+										<div class="single-progress-txt">
+											<div class="progress ">
+											   <div class="progress-bar" role="progressbar" aria-valuenow="92" aria-valuemin="10" aria-valuemax="100" style="">
+												    
+											   </div>
+											</div>
+											<h3>92%</h3>	
+										</div>
+									</div><!-- /.barWrapper -->
+									<div class="barWrapper">
+										<span class="progressText">Webscraping and APIs</span>
+										<div class="single-progress-txt">
+											<div class="progress ">
+											   <div class="progress-bar" role="progressbar" aria-valuenow="88" aria-valuemin="10" aria-valuemax="100" style="">
+												   
+											   </div>
+											</div>
+											<h3>88%</h3>	
+										</div>
+									</div><!-- /.barWrapper -->
+									<div class="barWrapper">
+										<span class="progressText">Analytical Thinking</span>
+										<div class="single-progress-txt">
+											<div class="progress ">
+											   <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="10" aria-valuemax="100" style="">
+												    
+											   </div>
+											</div>
+											<h3>90%</h3>	
+										</div>
+									</div><!-- /.barWrapper -->
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="single-skill-content">
+									<div class="barWrapper">
+										<span class="progressText">Social Media</span>
+										<div class="single-progress-txt">
+											<div class="progress ">
+												<div class="progress-bar" role="progressbar" aria-valuenow="87" aria-valuemin="10" aria-valuemax="100" style="">
+													
+												</div>
+											</div>
+											<h3>87%</h3>	
+										</div>
+									</div><!-- /.barWrapper -->
+									<div class="barWrapper">
+										<span class="progressText">Data Visualization</span>
+										<div class="single-progress-txt">
+											<div class="progress ">
+											   <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="10" aria-valuemax="100" style="">
+												    
+											   </div>
+											</div>
+											<h3>95%</h3>	
+										</div>
+									</div><!-- /.barWrapper -->
+									<div class="barWrapper">
+										<span class="progressText">Digital Storytelling</span>
+										<div class="single-progress-txt">
+											<div class="progress ">
+											   <div class="progress-bar" role="progressbar" aria-valuenow="97" aria-valuemin="10" aria-valuemax="100" style="">
+												   
+											   </div>
+											</div>
+											<h3>97%</h3>	
+										</div>
+									</div><!-- /.barWrapper -->
+									<div class="barWrapper">
+										<span class="progressText">Photography</span>
+										<div class="single-progress-txt">
+											<div class="progress ">
+											   <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="10" aria-valuemax="100" style="">
+												    
+											   </div>
+											</div>
+											<h3>80%</h3>	
+										</div>
+									</div><!-- /.barWrapper -->
+								</div>
+							</div>
+						</div><!-- /.row -->
+					</div>	<!-- /.container -->		
+				</div><!-- /.skill-content-->
+
+		</section><!--/.skills-->
+		<!--skills end -->
+		<!--profiles start -->
+		<section id="profiles" class="profiles">
+			<div class="profiles-details">
+				<div class="section-heading text-center">
+					<h2>business cases</h2>
+				</div>
+				<div class="container">
+					<div class="profiles-content">
+						<div class="row">
+							<div class="col-sm-4">
+								<div class="single-profile">
+									<div class="profile-txt">
+										<div class="profile-icon-name">Market Research</div>
+									</div>
+									<div class="single-profile-overlay">
+										<div class="profile-txt">
+											<a href="https://github.com/effyvrversion/Portforlio/blob/6f9e250acd9ff121369b14bcfb3ed1d4a346de20/German%20vehicle%20market.pdf">
+												<img src="/assets/images/file/p1.png" alt="portfolio image"/>
+											</a>
+											<div class="profile-icon-name"></div>                              
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-4">
+								<div class="single-profile">
+									<div class="profile-txt">
+										<div class="profile-icon-name">Customer analysis</div>
+									</div>
+									<div class="single-profile-overlay">
+										<div class="profile-txt">
+											<a href="https://github.com/effyvrversion/Portforlio/blob/6f9e250acd9ff121369b14bcfb3ed1d4a346de20/bankcustomer_analysis.ipynb">
+												<img src="/assets/images/file/p2.png" alt="portfolio image"/>
+											</a>
+											<div class="profile-icon-name"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-4">
+								<div class="single-profile">
+									<div class="profile-txt">
+										<div class="profile-icon-name">Sales Data</div>
+									</div>
+									<div class="single-profile-overlay">
+										<div class="profile-txt">
+											<a href="https://github.com/effyvrversion/Portforlio/blob/2f0404a4b3824134112ad284d513bc23d3b4e1e7/Sales%20Dashboard.pdf">
+												<img src="/assets/images/file/p3.png" alt="portfolio image"/>
+											</a>
+												<div class="profile-icon-name"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- <div class="col-sm-3">
+								<div class="single-profile profile-no-border">
+									<div class="profile-txt">
+										<div class="profile-icon-name">Process Enhancement</div>
+									</div>
+									<div class="single-profile-overlay">
+										<div class="profile-txt">
+											<a href=""><i class="flaticon-github-logo"></i></a>
+											<div class="profile-icon-name"></div>
+										</div>
+									</div>
+								</div>
+							</div> -->
+						</div>
+					</div>
+				</div>
 			</div>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+		</section><!--/.profiles-->
+		<!--profiles end -->
 
-	</body>
+		<!--portfolio start -->
+		<section id="portfolio" class="portfolio">
+			<div class="portfolio-details">
+				<div class="section-heading text-center">
+					<h2>Data Insights</h2>
+				</div>
+				<div class="container">
+					<div class="portfolio-content">
+						<div class="isotope">
+							<div class="row">
+
+								<div class="col-sm-4">
+									<div class="item">
+										<img src="assets/images/portfolio/p1.png" alt="portfolio image"/>
+										<div class="isotope-overlay">
+											<a href="https://public.tableau.com/app/profile/aona.wang/viz/Videogame_dashboard/GameOverview_Dashboard">
+												Python: Video Games
+											</a>
+										</div><!-- /.isotope-overlay -->
+									</div><!-- /.item -->
+									<div class="item">
+										<img src="assets/images/portfolio/p4.png" alt="portfolio image"/>
+										<div class="isotope-overlay">
+											<a href="https://public.tableau.com/app/profile/aona.wang/viz/Overview-Rijksmuseum/MuseumOverview?publish=yes">
+												Metadata
+											</a>
+										</div><!-- /.isotope-overlay -->
+									</div><!-- /.item -->
+								</div><!-- /.col -->
+
+								<div class="col-sm-4">
+									<div class="item">
+										<img src="assets/images/portfolio/p6.png" alt="portfolio image"/>
+										<div class="isotope-overlay">
+											<a href="https://github.com/effyvrversion/Portforlio/blob/f4bdc3b166540f9fb22da566d6f04d4c3b639322/Mondial_SQL_analysis/Mondial_SQL_Analysis.ipynb">
+												SQL
+											</a>
+										</div><!-- /.isotope-overlay -->
+									</div><!-- /.item -->
+											<div class="item">
+												<img src="assets/images/portfolio/p2.png" alt="portfolio image"/>
+												<div class="isotope-overlay">
+													<a href="https://github.com/effyvrversion/Portforlio/blob/main/bankcustomer_analysis.ipynb">
+														Python: Bank Customer Analysis
+													</a>
+										</div><!-- /.isotope-overlay -->
+									</div><!-- /.item -->
+								</div><!-- /.col -->
+
+								<div class="col-sm-4">
+									<div class="item">
+										<img src="assets/images/portfolio/p5.png" alt="portfolio image"/>
+										<div class="isotope-overlay">
+											<a href="https://github.com/effyvrversion/IBM-DS-Assignment/blob/2fb1d664b86e1dc6c9905ba9fa6d6c2d8b17e07c/Applied%20DS/IBM-DS0321EN-SkillsNetwork_labs_module_4_SpaceX_Machine_Learning_Prediction_Part_5.jupyterlite.ipynb">
+												Deep Learning
+											</a>
+										</div><!-- /.isotope-overlay -->
+									</div><!-- /.item -->
+									<div class="item">
+										<img src="assets/images/portfolio/p7.jpg" alt="portfolio image"/>
+										<div class="isotope-overlay">
+											<a href="https://github.com/effyvrversion/IBM-DS-Assignment/blob/2fb1d664b86e1dc6c9905ba9fa6d6c2d8b17e07c/Applied%20DS/IBM-DS0321EN-SkillsNetwork_labs_module_4_SpaceX_Machine_Learning_Prediction_Part_5.jupyterlite.ipynb">
+												Machine Learning
+											</a>
+										</div><!-- /.isotope-overlay -->
+									</div><!-- /.item -->
+
+								</div><!-- /.col -->
+							</div><!-- /.row -->
+						</div><!--/.isotope-->
+					</div><!--/.gallery-content-->
+				</div><!--/.container-->
+			</div><!--/.portfolio-details-->
+
+		</section><!--/.portfolio-->
+		<!--portfolio end -->
+
+		<!--clients start -->
+		<section id="clients" class="clients">
+			<div class="section-heading text-center">
+				<h2>Photography</h2>
+				<p>“The real voyage of discovery consists not in seeking
+					new landscapes, <br>but in having new eyes.” </p>
+			</div>
+			<div class="clients-area">
+				<div class="container">
+					<div class="owl-carousel owl-theme" id="client">
+						<div class="item">
+							<a href="https://www.vogue.com/photovogue/photographers/358910/gallery#4626248">
+								<img src="assets/images/clients/c1.png" alt="photo" />
+							</a>
+						</div><!--/.item-->
+						<div class="item">
+							<a href="assets/images/clients/c2.png">
+								<img src="assets/images/clients/c2.png" alt="photo" />
+							</a>
+						</div><!--/.item-->
+						<div class="item">
+							<a href="assets/images/clients/c3.png">
+								<img src="assets/images/clients/c3.png" alt="photo" />
+							</a>
+						</div><!--/.item-->
+						<div class="item">
+							<a href="assets/images/clients/c4.png">
+								<img src="assets/images/clients/c4.png" alt="photo" />
+							</a>
+						</div><!--/.item-->
+						<div class="item">
+							<a href="assets/images/clients/c5.jpg">
+								<img src="assets/images/clients/c5.jpg" alt="photo" />
+							</a>
+						</div><!--/.item-->
+						<div class="item">
+							<a href="assets/images/clients/c6.jpg">
+								<img src="assets/images/clients/c6.jpg" alt="photo" />
+							</a>
+						</div><!--/.item-->
+						<div class="item">
+							<a href="assets/images/clients/c7.jpg">
+								<img src="assets/images/clients/c7.jpg" alt="photo" />
+							</a>
+						</div><!--/.item-->
+					</div><!--/.owl-carousel-->
+				</div><!--/.container-->
+			</div><!--/.clients-area-->
+
+		</section><!--/.clients-->
+
+		</section><!--/.clients-->
+		<!--clients end -->
+
+		<!--footer-copyright start-->
+		<footer id="footer-copyright" class="footer-copyright">
+			<div class="container">
+				<div class="hm-footer-copyright text-center">
+					<p>
+						&copy; Aona Wang. All rights reserved.
+					</p><!--/p-->
+				</div><!--/.text-center-->
+			</div><!--/.container-->
+
+			<div id="scroll-Top">
+				<div class="return-to-top">
+					<i class="fa fa-angle-up " id="scroll-top" ></i>
+				</div>
+				
+			</div><!--/.scroll-Top-->
+			
+        </footer><!--/.footer-copyright-->
+		<!--footer-copyright end-->
+		
+		<!-- Include all js compiled plugins (below), or include individual files as needed -->
+
+		<script src="assets/js/jquery.js"></script>
+        
+        <!--modernizr.min.js-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+		
+		<!--bootstrap.min.js-->
+        <script src="assets/js/bootstrap.min.js"></script>
+		
+		<!-- bootsnav js -->
+		<script src="assets/js/bootsnav.js"></script>
+		
+		<!-- jquery.sticky.js -->
+		<script src="assets/js/jquery.sticky.js"></script>
+		
+		<!-- for progress bar start-->
+
+		<!-- progressbar js -->
+		<script src="assets/js/progressbar.js"></script>
+
+		<!-- appear js -->
+		<script src="assets/js/jquery.appear.js"></script>
+
+		<!-- for progress bar end -->
+
+		<!--owl.carousel.js-->
+        <script src="assets/js/owl.carousel.min.js"></script>
+
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+		
+        
+        <!--Custom JS-->
+        <script src="assets/js/custom.js"></script>
+        
+    </body>
+	
 </html>
